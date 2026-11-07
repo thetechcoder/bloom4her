@@ -39,3 +39,6 @@ Users can set a 4–6 digit PIN in My Meter → App lock. It is stored only as a
 
 ## Resetting
 My Meter → **Reset my progress** clears scores, quizzes, daily ticks, streaks and badges but keeps name, shelf, routine, season and product profile. Each finished module also has "Reset this module's score". **Clear all my data** erases everything.
+
+## Cloudflare Pages notes
+Cloudflare redirects `/index.html` to `/`. The service worker and manifest are written for that (`start_url` is `./`, and the page is cached as `./`). Don't change them back to `index.html`. The `_headers` file keeps `sw.js` and the manifest fresh. If you ever see "This site can't be reached" after an update, uninstall the app, clear the site's data in the browser, and reinstall.
