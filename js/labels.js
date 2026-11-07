@@ -1,0 +1,21 @@
+/* Label reader: v = 'ok' | 'care' | 'avoid' | 'info' */
+window.BLOOM_LABELS = [
+  { term: 'Fragrance / Parfum', v: 'care', what: 'A catch-all for scent ingredients. It’s one of the most common causes of skin irritation and allergy.', tip: 'Choose fragrance-free for sensitive skin, and never use scented products on the intimate area.' },
+  { term: 'Fragrance-free vs Unscented', v: 'info', what: '"Fragrance-free" means no fragrance added. "Unscented" can still contain a masking fragrance to cancel odours.', tip: 'For sensitive skin, look for "fragrance-free".' },
+  { term: 'Antibacterial / Triclosan', v: 'care', what: 'Marketed as "extra clean", but for healthy skin plain soap and water work as well. Some antibacterial ingredients can dry and irritate.', tip: 'Save antibacterial products for when a clinician recommends them.' },
+  { term: 'Aluminium chlorohydrate / Aluminium zirconium', v: 'ok', what: 'The active ingredient in antiperspirants. It temporarily blocks sweat ducts.', tip: 'Works best on clean, dry skin. Stop if it irritates.' },
+  { term: 'Alcohol denat. / Ethanol', v: 'care', what: 'Dries quickly but can sting freshly shaved skin and dry out sensitive skin, especially in harmattan.', tip: 'Choose alcohol-free deodorants after shaving.' },
+  { term: 'Glycerin, shea butter, petrolatum, ceramides', v: 'ok', what: 'Well-proven moisturising ingredients. They draw in or lock in water and support the skin barrier.', tip: 'A strong choice for dry skin and harmattan.' },
+  { term: 'Sulfates (SLS, SLES)', v: 'care', what: 'Strong cleansing agents that create lots of foam. Fine for many people, but can dry out dry or sensitive skin and scalp.', tip: 'If your skin feels tight after washing, try a gentler, low-foam cleanser.' },
+  { term: 'Zinc pyrithione, selenium sulfide, ketoconazole', v: 'ok', what: 'Active ingredients in anti-dandruff shampoos. They reduce the yeast linked to flaking.', tip: 'Leave on for a few minutes, then rinse. See a clinician if no better in a month.' },
+  { term: 'Salicylic acid', v: 'care', what: 'A mild exfoliant that helps with body bumps and blocked pores. Can dry or irritate if overused.', tip: 'Start once or twice a week. Don’t use it on the intimate area.' },
+  { term: 'Fluoride', v: 'ok', what: 'Strengthens tooth enamel and protects against cavities.', tip: 'Choose a toothpaste that contains it.' },
+  { term: 'SPF 30 / SPF 50', v: 'info', what: 'SPF measures protection against UVB (burning) rays. SPF 30 blocks about 97% and SPF 50 about 98%.', tip: 'Amount and reapplication matter more than a higher number.' },
+  { term: 'PA+++ / PA++++', v: 'info', what: 'A rating of UVA (ageing and darkening) protection. More plus signs means more protection.', tip: 'Look for broad-spectrum or PA+++ and above.' },
+  { term: '"Natural", "organic", "herbal"', v: 'care', what: 'Not regulated terms on most products. Natural ingredients, such as essential oils, can irritate or cause allergies.', tip: 'Judge a product by its ingredient list and how your skin reacts.' },
+  { term: '"Hypoallergenic", "dermatologically tested"', v: 'care', what: 'Marketing phrases with no guarantee that you won’t react.', tip: 'Patch test anyway.' },
+  { term: '"pH-balanced" feminine washes', v: 'avoid', what: 'The vagina balances its own pH. The vulva doesn’t need a special wash.', tip: 'Warm water is enough. Skip these products.' },
+  { term: '"Whitening", "lightening", "brightening"', v: 'avoid', what: 'Some unregulated skin-lightening products contain hydroquinone, mercury or strong steroids that can seriously harm skin and health.', tip: 'Avoid products without clear ingredients and a NAFDAC number. Ask a dermatologist about dark marks.' },
+  { term: 'NAFDAC registration number', v: 'ok', what: 'Nigeria’s regulator registers many cosmetics and health products. A number on the pack is a good sign, but fakes copy numbers.', tip: 'Buy from reputable pharmacies and official stores, and check through NAFDAC’s official channels.' },
+  { term: 'Expiry date and the open-jar "12M" symbol', v: 'info', what: 'The expiry date applies to an unopened product. The open-jar symbol shows how many months it lasts once opened (for example, 12M = 12 months).', tip: 'Write the opening date on the product, or log it on My Shelf.' }
+];
